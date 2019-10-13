@@ -1,0 +1,23 @@
+{
+  "name": "webpack-dev-prod-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for React applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conaryHernandez/webpack-dev-prod-boilerplate.git"
+  },
+  "author": "Conary Hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conaryHernandez/webpack-dev-prod-boilerplate/issues"
+  },
+  "homepage": "https://github.com/conaryHernandez/webpack-dev-prod-boilerplate#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.1"
+  }
+}
