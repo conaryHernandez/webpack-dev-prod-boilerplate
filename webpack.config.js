@@ -7,11 +7,16 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'main.bundle.js'
     },
+    target: 'node',
     module: {
         rules: [
             {
-                test: '/\.txt$/',
-                use: 'raw-loader'
+                test: '/\.css$/',
+                use: 'css-loader'
+            },
+            {
+                test: '/\.ts$/',
+                use: 'ts-loader'
             }
         ],
     },
